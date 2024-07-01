@@ -2,7 +2,7 @@
 Visão Geral
 Este projeto é um sistema simples de gerenciamento de funcionários desenvolvido em Java com interface gráfica usando Swing (JFrame) e conectado a um banco de dados MySQL. O sistema permite realizar operações básicas de CRUD (Create, Read, Update, Delete) para funcionários.
 
-Estrutura do Projeto
+#Estrutura do Projeto
 src/model: Contém as classes relacionadas ao modelo de dados (Funcionario.java e DatabaseConnection.java).
 
 src/view: Inclui a interface gráfica (FuncionarioView.java).
@@ -13,7 +13,7 @@ src/main: Ponto de entrada do aplicativo (Main.java).
 
 lib: Pasta para o arquivo mysql-connector-java.jar.
 
-Requisitos
+# Requisitos
 Java JDK 8 ou superior
 MySQL Server
 MySQL Connector Java
@@ -22,7 +22,7 @@ Crie um banco de dados no MySQL:
 CREATE DATABASE funcionario_db;
 USE funcionario_db;
 
-CREATE TABLE funcionarios (
+# CREATE TABLE funcionarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) NOT NULL,
